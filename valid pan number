@@ -1,0 +1,9 @@
+t=input()
+ans=[]
+for i in range(1,t+1):
+    n=raw_input()
+    if (len(n)==10 and (n[0:5].isalpha()) and (n[5:8].isdigit()) and (n[len(n)-1:].isalpha()) and n[0:5].isupper() and n[len(n)-1:].isupper()):
+        ans.append("YES")        
+    else:
+        ans.append("NO")
+print ('\n'.join(ans))
