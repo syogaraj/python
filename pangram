@@ -1,0 +1,7 @@
+s=raw_input()
+if(len(s)<=10**5 and len(s)!=0):
+    is_pangram = lambda s: not set('abcdefghijklmnopqrstuvwxyz') - set(s.lower())
+    if(is_pangram(s)==True):
+        print "pangram"
+    else:
+        print "not pangram"
