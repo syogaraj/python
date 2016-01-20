@@ -6,5 +6,5 @@ def sendmessage(title,message):
     noti.show();
     return
 while (True):
-    time.sleep(120); #time interval
+    time.sleep(1200); #time interval
     sendmessage("Eye Protector!!","Warning!! Looking in the Computer for more than 20 mins... Focus on a object in a long distance!")
